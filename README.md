@@ -6,6 +6,7 @@ model, the manager increases or decreases the thread amount based on traffic.
 On the comman line use the commands
 
 $ javac * .java
+
 $ java CapitalizeServer
 
 The server will start running. Now to test it, open a seperate command line and use
