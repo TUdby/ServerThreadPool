@@ -13,9 +13,9 @@ The server will start running. Now to test it, open a seperate command line and 
 
 $ java ParallelClient
 
-This will start throwing many clients at the server in parallel and printing the responses. 
+This will start throwing clients at the server in parallel and printing the responses. 
 The server will print messages from the thread pool indicating how many threads it has 
-running every time it increased or decreased the amount. This is to show the thread manager in action.
+running every time it increases or decreases the amount. This is to show the thread manager in action.
 
 ## The Code
 The following are the classes and what they do.
