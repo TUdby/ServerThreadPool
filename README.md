@@ -18,7 +18,7 @@ The server will print messages from the thread pool indicating how many threads 
 running every time it increased or decreased the amount. This is to show the thread manager in action.
 
 ## The Code
-The following sections go over the classes and what they do.
+The following are the classes and what they do.
 
 ### CapitalizeServer
 This creates the thread manager, asks it for the queue, then sets up the server and immediatley places every socket into the queue.
